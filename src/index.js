@@ -8,7 +8,7 @@ exports.min = function min(array = []) {
   
   exports.max = function max(array = []) {
     if (array.length) {
-      return Math.max(...array, 0);
+      return Math.max(...array);
     }
     return 0;
   }
